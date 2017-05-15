@@ -85,7 +85,7 @@ public class Zombi {
                     System.out.println("Zombi health: " + zombiHealth);
                     //                wait(1000);
                 } else {
-                    spoonDamage = random.nextInt(20 + playerStrength);
+                    spoonDamage = random.nextInt(20 + playerStrength + 5);
                     System.out.println("You charge forwards with your spoon, dealing " + spoonDamage + " damage!");
                     zombiHealth -= spoonDamage;
                     System.out.println();
