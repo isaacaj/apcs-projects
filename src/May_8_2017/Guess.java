@@ -1,6 +1,5 @@
-package modulusMonday;
+package May_8_2017;
 
-import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 

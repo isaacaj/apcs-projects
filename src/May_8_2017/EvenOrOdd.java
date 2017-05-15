@@ -1,4 +1,4 @@
-package modulusMonday;
+package May_8_2017;
 
 import java.util.Scanner;
 
