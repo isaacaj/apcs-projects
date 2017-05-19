@@ -119,7 +119,7 @@ public class Zombi {
                 }
                 if (zombiHealth > 0) {
                     System.out.println();
-                    bossDamage = random.nextInt(250) + 50;
+                    bossDamage = random.nextInt(150) + 50;
                     System.out.println("The zombi attacks, dealing " + bossDamage + " damage to you. \n");
                     playerHealth -= bossDamage;
                     System.out.println("Your health: " + playerHealth);
@@ -130,6 +130,9 @@ public class Zombi {
         }
 
         if (playerHealth <= 0) {
+
+            scanner.close();
+
             System.out.println("You succumb to your wounds, the zombies win this time... \n \n \n");
             wait(3000);
             System.out.print("G ");
